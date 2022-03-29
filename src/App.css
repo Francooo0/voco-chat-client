@@ -1,0 +1,63 @@
+html{
+  background-image: linear-gradient(red, yellow);
+
+}
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: bisque;
+
+}
+.me .chatbox{
+  background-color: cadetblue;
+}
+
+.container{
+  display: flex;
+  margin:auto;
+  padding:auto;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+  margin-left:250px;
+  position: fixed;
+  width: 50%;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.btm input{
+  padding: 10px 0;
+  flex-grow: 1;
+}
+.btm button{
+  padding: 10px 0;
+  width:70px;
+}
+
+.chat-container{
+  border-radius: 15px 15px 0px 0px;
+  height: 70vh;
+  overflow-y:scroll;
+  border: 1px solid black;
+  width:50%;
+  margin-left:300px;
+  background-color:darkgray;
+}
+#nimi{
+  padding:10px;
+  width:100%;
+  text-align:center;
+  height:20vh;
+}
+
+h3{
+  padding-right: 1.5rem;
+}
